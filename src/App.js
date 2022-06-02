@@ -1,7 +1,13 @@
 import Counter from "./Counter";
+import Info from "./Info";
 
 function App() {
-  return <Counter />;
+  return (
+    <div>
+      <Counter />
+      <Info />
+    </div>
+  );
 }
 
 export default App;
