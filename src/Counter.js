@@ -23,10 +23,13 @@ const Counter = () => {
       <p>
         현재 카운터 값은 <b>{state.value}</b>입니다.
       </p>
+      <p>useState</p>
       <button onClick={() => setValue(value + 1)}>+ 1</button>
       <button onClick={() => setValue(value - 1)}>- 1</button>
       <button onClick={() => setValue(value * 2)}>* 2</button>
       <button onClick={() => setValue(value / 2)}>/ 2</button>
+      <hr />
+      <p>useReducer</p>
       <button onClick={() => dispatch({ type: "INCREMENT" })}>+1</button>
       <button onClick={() => dispatch({ type: "DECREMENT" })}>-1</button>
     </div>
