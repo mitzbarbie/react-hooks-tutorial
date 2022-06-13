@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Counter from "./Counter";
 import Info from "./Info";
+import Average from "./Average";
 
 // function App() {
 //   return (
@@ -25,6 +26,8 @@ const App = () => {
         {visible ? "hide" : "show"}
       </button>
       {visible && <Info />}
+      <hr />
+      <Average />
     </div>
   );
 };
