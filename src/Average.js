@@ -22,6 +22,7 @@ const Average = () => {
 
   return (
     <div>
+      <p>get counting average</p>
       <input value={number} onChange={onChange} />
       <button onClick={onInsert}>insert</button>
       <ul>
